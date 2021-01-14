@@ -1,0 +1,47 @@
+<header>
+  <h1>Gear Optimizer</h1>
+</header>
+
+<body>
+  <form action="./CharacterBreakdown.html" class = "character-creation-form">
+    <div>
+      <label htmlFor="character_name">Character Name</label>
+      <Input name="user_name" id="LoginForm__user_name"></Input>
+    </div>
+    <div>
+      <span>Class</span>
+      <select name="character-classes">
+        <option>Warrior</option>
+        <option>Hunter</option>
+        <option>Mage</option>
+        <option>Rogue</option>
+        <option>Priest</option>
+        <option>Warlock</option>
+        <option>Paladin</option>
+        <option>Druid</option>
+        <option>Shaman</option>
+        <option>Monk</option>
+        <option>Demon Hunter</option>
+        <option>Death Knight</option>
+      </select>
+    </div>
+    <div>
+      <span>Stat Priority</span>
+      <select name="character-stat-priority-presets">
+        <option>Pvp</option>
+        <option>Raiding</option>
+        <option>Mythic Plus</option>
+        <option>Custom</option>        
+      </select>
+    </div>
+    
+    
+
+    <button className="submit-character">
+      Submit New Character
+    </button>
+  </form>
+  <form action="./CustomStatPrioPage.html">
+    <button>Custom Stat Priority Shortcut</button>
+  </form>
+</body>
